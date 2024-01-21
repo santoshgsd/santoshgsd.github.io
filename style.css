@@ -1,0 +1,54 @@
+ /* Basic styling */
+ * {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+
+  /* Container for the form */
+  .signup-form {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+  }
+
+  /* Form title */
+  .signup-form h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  /* Form fields */
+  .signup-form input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+  }
+
+  /* Form labels */
+  .signup-form label {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+  }
+
+  /* Form submit button */
+  .signup-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    background-color: #04AA6D;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  /* Form submit button hover effect */
+  .signup-form button:hover {
+    background-color: #039c5a;
+  }
